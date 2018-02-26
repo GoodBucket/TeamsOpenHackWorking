@@ -1,0 +1,22 @@
+{
+  "name": "dave",
+  "version": "1.0.0",
+  "description": "teams bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "spooenr",
+  "license": "SEE LICENSE IN licence.txt",
+  "dependencies": {
+    "botbuilder": "^3.14.0",
+    "restify": "^6.3.4"
+  }
+}

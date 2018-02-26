@@ -1,0 +1,24 @@
+{
+  "@type": "MessageCard",
+  "@context": "http://schema.org/extensions",
+  "summary": "This is the summary property",
+  "themeColor": "0075FF",
+  "sections": [
+      {
+          "heroImage": {
+              "image": "http://cdn.makeuseof.com/wp-content/uploads/2012/07/Question.png"
+          }
+      },
+      {
+          "startGroup": true,
+          "title": "New Geography Question!",
+          "activityTitle": "Question added by NAME EMAIL on DATE",
+
+          "facts": [
+              { "name": "Question:", "value": "TITLE" },
+              { "name": "Link:", "value": "LINK" }
+          ]
+      }
+
+  ]
+}
